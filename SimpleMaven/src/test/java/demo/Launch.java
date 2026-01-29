@@ -14,6 +14,7 @@ public class Launch {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		
 		driver.get("https://demowebshop.tricentis.com/");
+		System.out.println("URL is entered");
 		
 	}
 }
