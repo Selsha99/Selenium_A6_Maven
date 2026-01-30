@@ -18,6 +18,7 @@ public class Bajaj {
 		driver.get("https://www.bajajauto.com/");
 		driver.get("https://www.bajajauto.com/");
 		Reporter.log("Bajaj Launched",true);
+		driver.quit();
 		
 	}
 

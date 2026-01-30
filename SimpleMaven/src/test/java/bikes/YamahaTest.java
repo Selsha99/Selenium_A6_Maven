@@ -16,6 +16,7 @@ public class YamahaTest {
 		
 		driver.get("https://www.yamaha-motor-india.com/");
 		Reporter.log("Yamaha Launched",true);
+		driver.quit();
 		
 	}
 }

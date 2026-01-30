@@ -13,6 +13,7 @@ public class BenzTest {
 		
 		driver.get("https://www.mercedes-benz.co.in/");
 		Reporter.log("Benz Launched",true);
+		driver.quit();
 		
 	}
 

@@ -13,6 +13,7 @@ public class LamborghiniTest {
 		
 		driver.get("https://www.lamborghini.com/");
 		Reporter.log("Lamborghini Launched",true);
+		driver.quit();
 		
 	}
 

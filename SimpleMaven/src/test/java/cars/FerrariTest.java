@@ -13,6 +13,7 @@ public class FerrariTest {
 		
 		driver.get("https://www.ferrari.com/");
 		Reporter.log("Ferrari Launched",true);
+		driver.quit();
 		
 	}
 

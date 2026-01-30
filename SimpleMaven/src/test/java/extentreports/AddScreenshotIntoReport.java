@@ -40,6 +40,7 @@ public class AddScreenshotIntoReport {
 		test.log(Status.INFO, "Adding screenshot");
 		test.addScreenCaptureFromBase64String(screenshot); 
 		ereport.flush();
+		driver.quit();
 		
 		
 	}
