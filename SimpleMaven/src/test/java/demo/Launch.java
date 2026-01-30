@@ -17,9 +17,10 @@ public class Launch {
 		driver.manage().window().maximize();
 		System.out.println("URL is entered");
 		System.out.println(" =============> Ended <===========");
-		System.out.println("Dead");
+		
 		
 	}
 }
+
 
 
